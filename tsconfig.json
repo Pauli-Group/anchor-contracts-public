@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "javascript_build",
+    "resolveJsonModule" : true,
+    "typeRoots": [
+  "./node_modules/@types",
+  "./types"
+] 
+  },
+  "include": ["src", "test", "offchain", "interact"],
+  "exclude": ["node_modules"]
+}

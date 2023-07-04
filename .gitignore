@@ -1,0 +1,10 @@
+/node_modules
+/build
+/javascript_build
+/keys
+/walletfiles
+.secret
+.env
+
+gitgo.sh
+/deploymentRecords
